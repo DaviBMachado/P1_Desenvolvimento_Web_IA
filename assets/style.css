@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #e3eff7;
+}
+
+header {
+    width: 100%;
+    height: 25%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin-bottom: .5%;
+    background-color: #B6DBF2;
+}
+
+.nav-a {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#links {
+    width: 85%;
+    margin-right: 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links p {
+    font-size: 2rem;
+}
+
+#links a {
+    margin: 1.5% 6.5%;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20%;
+}
+
+#login a {
+    margin: 1.5%;
+    text-decoration: none;
+}
+
+#login button {
+    font-size: 1.8em;
+    width: 25%;
+    margin: .5%;
+    border-radius: 30px;
+    background-color: #e3eff7;
+}
+
+.nav-pages {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-pages h1 {
+    font-size: 58px;
+}
+
+.text {
+    width: 85%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.text2 a {
+    font-size: 23px;
+    margin: 0 2.5%;
+    text-decoration: none;
+}
+
+.text2 {
+    display: flex;
+    width: 60%;
+}
+
+.logo {
+    width: 6.8%;
+    height: 75%;
+    margin: .5%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.redes {
+    margin: 0 5% 0 5%;
+}
+
+.logo-scm {
+    width: fit-content;
+    border-radius: 60px;
+}
+
+main {
+    width: 100%;
+    height: 74%;
+    margin-top: .5%;
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    margin: 1.5% 0 1.5% 1.5%;
+}
+
+section {
+    width: 60%;
+    height: 95%;
+}
+
+.carrosel {
+    width: 100%;
+    height: 100%;
+}
+
+.carrosel img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+aside {
+    width: 30%;
+    height: 95%;
+}
+
+#empresas{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#empresas th{
+    color: white;
+    background-color: rgb(16, 16, 197);
+}
+#empresas td,th {
+    text-align: left;
+    padding: 8px 8px 14px 8px;
+}
+
+#empresas tr:nth-child(even) {
+    background-color: #dddddd;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 5px 0 5px 0;
+    background-color: #0f075e;
+    color: white;
+}
+
+footer a {
+    color: #ffd8ff;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+footer .rodape section{
+    width: fit-content;
+    margin: 0 1.5%;
+}
