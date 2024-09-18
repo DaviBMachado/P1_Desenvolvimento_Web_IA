@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border: solid 1px black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.home-page{
+    text-decoration: none;
+}
+.grid-item article {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid-item article p {
+    flex: 1;
+    border-right: solid 3px #ddd;
+    padding-right: 50px;
+}
+
+.grid-item article img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #302f2f;
+    text-align: left;
+    background-color: #ddd;
+}
+
+th {
+    background-color: #0858f8;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #0858f8;
+    font-size: 35px;
+}
+
+p, ul {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    padding: 5px 0 5px 0;
+    background-color: #0f075e;
+    color: white;
+}
+ 
+footer a {
+    color: #ffd8ff;
+}
+ 
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+footer .rodape section{
+    width: fit-content;
+    margin: 0 1.5%;
+}
+
+@media (max-width: 768px) {
+    main.container {
+        grid-template-columns: 1fr;
+    }
+    .grid-item {
+        padding: 10px;
+    }
+    .grid-item article {
+        flex-direction: column;
+    }
+    .grid-item article p {
+        border-right: none;
+        padding-right: 0;
+    }
+    .table-container {
+        padding: 10px;
+    }
+}
+
+
